@@ -23,7 +23,7 @@ abstract class View
 
     /*
      * @param string $param
-     * 
+     * Retorna a view de acordo com o parâmetro passado pela url.
      * @return [void]
      */
     public static function getByParam($param)
