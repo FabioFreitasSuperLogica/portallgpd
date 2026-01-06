@@ -5,6 +5,7 @@ abstract class View
     const PARAM_POLITICA = 'politica';
     const PARAM_CONTATOS = 'contatos';
     const PARAM_PORTAL = 'portal';
+    CONST PARAM_LGPD = 'lgpd';
     const PARAM_ERROR = 'error';
     const PARAM_SUCCESS = 'success';
 
@@ -37,6 +38,9 @@ abstract class View
                 break;
             case self::PARAM_PORTAL:
                 require_once 'views/portal.php';
+                break;
+            case self::PARAM_LGPD:
+                require_once 'views/lgpd.php';
                 break;
             case self::PARAM_ERROR:
                 require_once 'views/error.php';
