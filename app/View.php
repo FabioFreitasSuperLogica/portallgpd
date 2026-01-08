@@ -27,7 +27,7 @@ abstract class View
      * Retorna a view de acordo com o parâmetro passado pela url.
      * @return [void]
      */
-    public static function getByParam($param)
+    public static function getByParam($param): void
     {
         switch ($param) {
             case self::PARAM_CONTATOS:

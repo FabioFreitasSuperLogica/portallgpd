@@ -18,8 +18,7 @@
                 <table style="border:0px;">
                     <tr>
                         <td>
-                            <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdRequisicao">
-                            <label for="opcoesLgpdRequisicao">Requisi&ccedil;&atilde;o</label>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#requisicaoModal">Requisi&ccedil;&atilde;o</a>
                         </td>
                     </tr>
                     <tr id="requisicaoContent">
@@ -27,8 +26,9 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdConsulta">
-                            <label for="opcoesLgpdConsulta">Consulta</label>
+                            <!-- <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdConsulta">
+                            <label for="opcoesLgpdConsulta">Consulta</label> -->
+                            <a href="" id="opcoesLgpdConsulta">Consulta</a>
                         </td>
                     </tr>
                     <tr id="consultaContent">
@@ -36,8 +36,9 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdViolacao">
-                            <label for="opcoesLgpdViolacao">Reportar uma viola&ccedil;&atilde;o</label>
+                            <!-- <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdViolacao">
+                            <label for="opcoesLgpdViolacao">Reportar uma viola&ccedil;&atilde;o</label> -->
+                            <a href="" id="opcoesLgpdViolacao">Reportar uma viola&ccedil;&atilde;o</a>
                         </td>
                     </tr>
                     <tr id="violacaoContent">
@@ -45,8 +46,9 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdDuvidas">
-                            <label for="opcoesLgpdDuvidas">D&uacute;vidas e Contato</label>
+                            <!-- <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdDuvidas">
+                            <label for="opcoesLgpdDuvidas">D&uacute;vidas e Contato</label> -->
+                            <a href="" id="opcoesLgpdDuvidas">D&uacute;vidas e Contato</a>
                         </td>
                     </tr>
                 </table>
@@ -54,6 +56,9 @@
         </div>
     </div>
 </div>
-<script src="views/Portal.js"></script>
-<!-- <script src="js/jquery.min.js"></script>
-<script src="views/Portal.js"></script> -->
+<?php
+require_once 'modals/requisicao.php';
+?>
+
+<!-- <script src="views/Portal.js"></script>
+<script src="js/jquery.min.js"></script> -->
