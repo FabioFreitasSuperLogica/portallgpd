@@ -28,7 +28,7 @@
                         <td>
                             <!-- <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdConsulta">
                             <label for="opcoesLgpdConsulta">Consulta</label> -->
-                            <a href="" id="opcoesLgpdConsulta">Consulta</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#consultaModal">Consulta</a>
                         </td>
                     </tr>
                     <tr id="consultaContent">
@@ -48,7 +48,7 @@
                         <td>
                             <!-- <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdDuvidas">
                             <label for="opcoesLgpdDuvidas">D&uacute;vidas e Contato</label> -->
-                            <a href="" id="opcoesLgpdDuvidas">D&uacute;vidas e Contato</a>
+                            <a href="?pg=contatos">D&uacute;vidas e Contato</a>
                         </td>
                     </tr>
                 </table>
@@ -58,6 +58,7 @@
 </div>
 <?php
 require_once 'modals/requisicao.php';
+require_once 'modals/consulta.php';
 ?>
 
 <!-- <script src="views/Portal.js"></script>
