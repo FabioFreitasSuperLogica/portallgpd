@@ -26,8 +26,6 @@
                     </tr>
                     <tr>
                         <td>
-                            <!-- <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdConsulta">
-                            <label for="opcoesLgpdConsulta">Consulta</label> -->
                             <a href="" data-bs-toggle="modal" data-bs-target="#consultaModal">Consulta</a>
                         </td>
                     </tr>
@@ -36,9 +34,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <!-- <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdViolacao">
-                            <label for="opcoesLgpdViolacao">Reportar uma viola&ccedil;&atilde;o</label> -->
-                            <a href="" id="opcoesLgpdViolacao">Reportar uma viola&ccedil;&atilde;o</a>
+                            <a href="" data-bs-toggle="modal" data-bs-target="#violacaoModal">Reportar uma viola&ccedil;&atilde;o</a>
                         </td>
                     </tr>
                     <tr id="violacaoContent">
@@ -46,9 +42,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <!-- <input type="radio" class="input-radio" name="opcoesLgpd" id="opcoesLgpdDuvidas">
-                            <label for="opcoesLgpdDuvidas">D&uacute;vidas e Contato</label> -->
-                            <a href="?pg=contatos">D&uacute;vidas e Contato</a>
+                             <a href="?pg=contatos">D&uacute;vidas e Contato</a>
                         </td>
                     </tr>
                 </table>
@@ -59,6 +53,7 @@
 <?php
 require_once 'modals/requisicao.php';
 require_once 'modals/consulta.php';
+require_once 'modals/violacao.php';
 ?>
 
 <!-- <script src="views/Portal.js"></script>
