@@ -21,28 +21,18 @@
                             <a href="" data-bs-toggle="modal" data-bs-target="#requisicaoModal">Requisi&ccedil;&atilde;o</a>
                         </td>
                     </tr>
-                    <tr id="requisicaoContent">
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="" data-bs-toggle="modal" data-bs-target="#consultaModal">Consulta</a>
-                        </td>
-                    </tr>
-                    <tr id="consultaContent">
-                        <td></td>
+                    <td>
+                        <a href="" data-bs-toggle="modal" data-bs-target="#consultaModal">Consulta</a>
+                    </td>
                     </tr>
                     <tr>
                         <td>
                             <a href="" data-bs-toggle="modal" data-bs-target="#violacaoModal">Reportar uma viola&ccedil;&atilde;o</a>
                         </td>
                     </tr>
-                    <tr id="violacaoContent">
-                        <td></td>
-                    </tr>
                     <tr>
                         <td>
-                             <a href="?pg=contatos">D&uacute;vidas e Contato</a>
+                            <a href="?pg=contatos">D&uacute;vidas e Contato</a>
                         </td>
                     </tr>
                 </table>
